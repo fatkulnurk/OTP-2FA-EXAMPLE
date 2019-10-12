@@ -21,6 +21,6 @@ function login_invalid($username = 'Username'){
     $dat = date('M j H:i:s Y');
     $error_essage = "Authentication failed for: $username";
     $client_ip = $_SERVER['HTTP_CLIENT_IP']?:($_SERVER['HTTP_X_FORWARDE‌​D_FOR']?:$_SERVER['REMOTE_ADDR']);
-	error_log("[$dat] [WARNING] [client: $client_ip] $error_essage\n", 3, "/var/log/php-login/login.log");
+	error_log("[$dat] [WARNING] [client: $client_ip] $error_essage\n", 3);
 
 }
