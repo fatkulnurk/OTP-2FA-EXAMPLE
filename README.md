@@ -16,8 +16,9 @@
 
 ---
 
-**Library**
+**Library & reference **
 - https://github.com/Voronenko/PHPOTP
+- https://blog.swmansion.com/limiting-failed-ssh-login-attempts-with-fail2ban-7da15a2313b
 ---
 
 **Warning**

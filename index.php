@@ -1,5 +1,6 @@
 <?php
 include "config.php";
+login_invalid();
 ?>
 <!DOCTYPE html>
 <html lang="en">
