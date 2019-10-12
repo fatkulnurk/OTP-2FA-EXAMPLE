@@ -5,6 +5,14 @@
 - open config.php
 - update array $config, and change value for all key.
 - done. 
+---
+
+**Integration with Fail2ban**
+- install apache (or nginx)
+- install php (5.6 or new)
+- run chmod  `chmod +x install.sh`
+- run install.sh => `./install.sh`
+
 
 ---
 
