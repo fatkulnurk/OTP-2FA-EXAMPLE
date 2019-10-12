@@ -10,10 +10,10 @@ if (TokenAuth6238::verify($config['secret_key'], $currentcode)) {
         echo "Code is valid \n";
     } else {
         echo "Username and password is invalid";
-        login_invalid();
+        login_invalid($username);
     }
 } else {
-    login_invalid();
+    login_invalid($username);
     if ($username == $config['username'] && $password == $config['password']) {
         echo "Invalid Code \n";
     } else {
